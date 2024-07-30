@@ -2,8 +2,9 @@
 library(dplyr)
 library(lubridate)
 library(readr)
-library(tidyr)  
+library(tidyr)
 library(lme4)
+library(MASS) # For negative binomial
 
 # Read the CSV file
 object_data <- read_csv('./2024_Jul_ob_count.csv')
@@ -63,14 +64,50 @@ for (super_cat in names(super_categories)) {
     mutate(!!paste0(super_cat, '_counts') := rowSums(select(., all_of(paste0(super_categories[[super_cat]], '_counts'))), na.rm = TRUE))
 }
 
-# Define the counts column to model (e.g., 'car_counts')
+# Round 'datetime' to the nearest hour
+fixed_object_data <- fixed_object_data %>%
+  mutate(datetime_hour = floor_date(datetime, "hour"))
+
+# Sum the counts within each hour for each camera at each site
+hourly_counts <- fixed_object_data %>%
+  group_by(site_id, camera, datetime_hour) %>%
+  summarise(across(all_of(all_count_cols), sum, na.rm = TRUE)) %>%
+  ungroup()
+
+# Calculate the mean for each object category across cameras
+hourly_averages <- hourly_counts %>%
+  group_by(site_id, datetime_hour) %>%
+  summarise(across(all_of(all_count_cols), mean, na.rm = TRUE)) %>%
+  ungroup()
+
+# Add additional time-related columns
+hourly_averages <- hourly_averages %>%
+  mutate(
+    date = as.Date(datetime_hour),
+    hour = hour(datetime_hour),
+    day = wday(datetime_hour, week_start = 1),
+    week = isoweek(datetime_hour),
+    year = year(datetime_hour)
+  )
+
+# Convert relevant columns to factors
+hourly_averages <- hourly_averages %>%
+  mutate(
+    hour = as.factor(hour),
+    day = as.factor(day),
+    week = as.factor(week),
+    site_id = as.factor(site_id),
+    year = as.factor(year)
+  )
+
+# Define the counts column to model (e.g., 'people_counts')
 counts_column <- 'people_counts'
 
-# Construct the formula for the mixed-effects model
+# Construct the formula for the mixed-effects model with a negative binomial family
 formula <- as.formula(paste0(counts_column, " ~ (1|hour) + (1|day) + (1|week) + year + (1|site_id)"))
 
-# Fit the model using glmer (generalized linear mixed-effects model with Poisson family)
-model_fit <- glmer(formula, data = fixed_object_data, family = poisson(link = "log"))
+# Fit the model using glmer.nb (generalized linear mixed-effects model with Negative Binomial family)
+model_fit <- glmer.nb(formula, data = hourly_averages)
 
 # Print the summary of the model
 summary(model_fit)
