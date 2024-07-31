@@ -1,4 +1,0 @@
-FROM rocker/tidyverse:latest
-
-RUN R -e "install.packages(c('dplyr', 'nloptr', 'lme4', 'lubridate', 'readr', 'tidyr'), repos='http://cran.rstudio.com/')"
-
