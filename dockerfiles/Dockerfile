@@ -15,5 +15,5 @@ RUN R -e "install.packages(c('dplyr', 'nloptr', 'lme4', 'lubridate', 'readr', 't
 
 # Copy your R script into the Docker image
 COPY time_series.R /local/time_series.R
-COPY 2024_Jul_ob_count.csv /local/2024_Jul_ob_count.csv
+COPY hourly_averages.csv /local/hourly_averages.csv
 
