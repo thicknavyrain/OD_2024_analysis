@@ -11,9 +11,10 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install R packages
-RUN R -e "install.packages(c('dplyr', 'nloptr', 'lme4', 'lubridate', 'readr', 'tidyr'), repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages(c('dplyr', 'nloptr', 'lme4', 'lubridate', 'readr', 'tidyr', 'glmmTMB','broom.mixed', 'performance'), repos='http://cran.rstudio.com/')"
 
 # Copy your R script into the Docker image
 COPY time_series.R /local/time_series.R
+COPY time_series_AD.R /local/time_series_AD.R
 COPY hourly_averages.csv /local/hourly_averages.csv
 

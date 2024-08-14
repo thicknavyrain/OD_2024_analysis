@@ -17,9 +17,6 @@ response_variable <- paste0(super_category, '_counts')
 # Loop over each site and fit the model
 for (site in site_ids) {
   
-  # Print the site ID to associate with the following model output
-  cat("Processing site:", site, "\n")
-  
   # Filter the data for the specific site
   filtered_data <- hourly_averages %>% filter(site_id == site)
   
