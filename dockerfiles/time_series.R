@@ -14,6 +14,12 @@ site_ids <- unique(hourly_averages$site_id)
 super_category <- 'people'
 response_variable <- paste0(super_category, '_counts')
 
+# Prepare a data frame to store the R-squared values for each site
+r2_results <- data.frame(site = character(), 
+                         marginal_R2 = numeric(), 
+                         conditional_R2 = numeric(), 
+                         stringsAsFactors = FALSE)
+
 # Loop over each site and fit the model
 for (site in site_ids) {
   
@@ -50,6 +56,18 @@ for (site in site_ids) {
   # Print the summary of the model
   print(summary(model_fit))
   
+ # Compute the pseudo-R² values
+  r2_values <- performance::r2(model_fit)
+  
+  # Print the R² values to the console
+  print(r2_values)
+  
+  # Store the R² values in the results data frame
+  r2_results <- r2_results %>%
+    add_row(site = site, 
+            marginal_R2 = r2_values$R2_marginal, 
+            conditional_R2 = r2_values$R2_conditional)
+
   # Extract coefficients, confidence intervals, and exponentiate them
   # 1. Tidy all coefficients (fixed, random, zero-inflation)
   tidy_all <- tidy(model_fit, conf.int = TRUE, exponentiate = TRUE)
@@ -73,3 +91,9 @@ for (site in site_ids) {
   write_csv(tidy_conditional, output_conditional)
 }
 
+# Save the R² results to a CSV file
+r2_output_path <- file.path(output_dir, 'pseudo_r2_results.csv')
+write_csv(r2_results, r2_output_path)
+
+# Print the R² results to the console
+print(r2_results)
