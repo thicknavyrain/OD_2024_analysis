@@ -5,7 +5,7 @@ library(glmmTMB)
 library(broom.mixed) # For tidying glmmTMB output
 
 # Read the pre-processed CSV file
-hourly_averages <- read_csv('./hourly_averages.csv')
+hourly_averages <- read_csv('./hourly_averages_v2.csv')
 
 # Get the unique site IDs
 site_ids <- unique(hourly_averages$site_id)
