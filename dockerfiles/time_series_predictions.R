@@ -2,11 +2,11 @@
 library(dplyr)
 library(readr)
 library(glmmTMB)
-library(broom.mixed)
+library(broom.mixed) # For tidying glmmTMB output
 library(performance) # For calculating R²
 
 # Read the pre-processed CSV file
-hourly_averages <- read_csv('./hourly_averages_v2.csv')
+hourly_averages <- read_csv('./hourly_averages_v3.csv')
 
 # Get the unique site IDs
 site_ids <- unique(hourly_averages$site_id)
@@ -31,8 +31,8 @@ for (site in site_ids) {
       cat("Processing site:", site, "with super category:", super_category, "on fold:", fold, "\n")
       
       # Filter the data for the specific site and fold
-      training_data <- hourly_averages %>% filter(site_id == site, fold != fold)
-      test_data <- hourly_averages %>% filter(site_id == site, fold == fold)
+      training_data <- hourly_averages %>% filter(site_id == site & fold != !!fold)
+      test_data <- hourly_averages %>% filter(site_id == site & fold == !!fold)
       
       # Convert relevant columns to factors (categorical variables)
       training_data <- training_data %>%
@@ -43,6 +43,21 @@ for (site in site_ids) {
           year = as.factor(year),
           directory_pair = as.factor(directory_pair)
         )
+      
+      # Diagnostic Print: Check unique levels for each factor
+      cat("Unique levels for 'hour':", length(unique(training_data$hour)), "\n")
+      cat("Unique levels for 'day':", length(unique(training_data$day)), "\n")
+      cat("Unique levels for 'week':", length(unique(training_data$week)), "\n")
+      cat("Unique levels for 'year':", length(unique(training_data$year)), "\n")
+      cat("Unique levels for 'directory_pair':", length(unique(training_data$directory_pair)), "\n")
+      
+      # Check if any factor has less than two levels
+      if (length(unique(training_data$hour)) < 2 || length(unique(training_data$day)) < 2 || 
+          length(unique(training_data$week)) < 2 || length(unique(training_data$year)) < 2 || 
+          length(unique(training_data$directory_pair)) < 2) {
+        cat("Skipping fold due to a factor with less than two levels.\n")
+        next
+      }
       
       # Define the response variable based on the current super category
       response_variable <- paste0(super_category, '_counts')

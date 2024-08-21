@@ -6,5 +6,7 @@ dockerfiles/2024_Jul_ob_count.csv
 2024_Jul_ob_count_v3.csv
 hourly_averages.csv
 hourly_averages_v2.csv
+hourly_averages_v3.csv
 dockerfiles/hourly_averages.csv
-dockerfiles/hourly_averages_c2.csv
+dockerfiles/hourly_averages_v2.csv
+dockerfiles/hourly_averages_v3.csv
