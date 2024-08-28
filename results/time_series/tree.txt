@@ -1,0 +1,1048 @@
+.
+├── AD
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Market_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── ASH
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Market_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── EL
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Market_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── JT
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_market_Counts.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── LA
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_market_Counts.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── N1W
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Market_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── NM
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Market_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── TF
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_market_Counts.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_market_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_market_Counts.png
+│   │   ├── Effect_of_Week_on_Market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_market_Counts.png
+│   │   ├── Effect_of_Year_on_Market_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── TMW
+│   ├── animal
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+│   ├── large_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_large_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_large_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+│   ├── market
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+│   ├── people
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+│   │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_People_Counts.png
+│   │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_People_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+│   ├── refuse
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+│   ├── small_vehicles
+│   │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+│   │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Day_of_Week_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Hour_of_Day_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Week_on_small_vehicles_Counts.png
+│   │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+│   │   ├── Effect_of_Year_on_small_vehicles_Counts.png
+│   │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+│   │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+│   └── two_wheelers
+│       ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+│       ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+│       ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+│       ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+│       ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+│       └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+├── tree.txt
+└── UGH
+    ├── animal
+    │   ├── Aggregated_Effect_of_Day_of_Week_on_Animal_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Hour_of_Day_on_Animal_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Week_on_Animal_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Year_on_Animal_Counts_aggregated.png
+    │   ├── Effect_of_Day_of_Week_on_Animal_Counts_all_folds.png
+    │   ├── Effect_of_Hour_of_Day_on_Animal_Counts_all_folds.png
+    │   ├── Effect_of_Week_on_Animal_Counts_all_folds.png
+    │   ├── Effect_of_Year_on_Animal_Counts_all_folds.png
+    │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Animal.png
+    │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Animal.png
+    ├── large_vehicles
+    │   ├── Aggregated_Effect_of_Day_of_Week_on_Large_vehicles_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Hour_of_Day_on_Large_vehicles_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Week_on_Large_vehicles_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Year_on_Large_vehicles_Counts_aggregated.png
+    │   ├── Effect_of_Day_of_Week_on_Large_vehicles_Counts_all_folds.png
+    │   ├── Effect_of_Hour_of_Day_on_Large_vehicles_Counts_all_folds.png
+    │   ├── Effect_of_Week_on_Large_vehicles_Counts_all_folds.png
+    │   ├── Effect_of_Year_on_Large_vehicles_Counts_all_folds.png
+    │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Large_vehicles.png
+    │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Large_vehicles.png
+    ├── market
+    │   ├── Aggregated_Effect_of_Day_of_Week_on_Market_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Hour_of_Day_on_Market_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Week_on_Market_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Year_on_Market_Counts_aggregated.png
+    │   ├── Effect_of_Day_of_Week_on_Market_Counts_all_folds.png
+    │   ├── Effect_of_Day_of_Week_on_market_Counts.png
+    │   ├── Effect_of_Hour_of_Day_on_Market_Counts_all_folds.png
+    │   ├── Effect_of_Hour_of_Day_on_market_Counts.png
+    │   ├── Effect_of_Week_on_Market_Counts_all_folds.png
+    │   ├── Effect_of_Week_on_market_Counts.png
+    │   ├── Effect_of_Year_on_Market_Counts_all_folds.png
+    │   ├── Effect_of_Year_on_market_Counts.png
+    │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Market.png
+    │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Market.png
+    ├── people
+    │   ├── Aggregated_Effect_of_Day_of_Week_on_People_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Hour_of_Day_on_People_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Week_on_People_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Year_on_People_Counts_aggregated.png
+    │   ├── Effect_of_Day_of_Week_on_People_Counts_all_folds.png
+    │   ├── Effect_of_Day_of_Week_on_People_Counts.png
+    │   ├── Effect_of_Hour_of_Day_on_People_Counts_all_folds.png
+    │   ├── Effect_of_Hour_of_Day_on_People_Counts.png
+    │   ├── Effect_of_Week_on_People_Counts_all_folds.png
+    │   ├── Effect_of_Week_on_People_Counts.png
+    │   ├── Effect_of_Year_on_People_Counts_all_folds.png
+    │   ├── Effect_of_Year_on_People_Counts.png
+    │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_People.png
+    │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_People.png
+    ├── refuse
+    │   ├── Aggregated_Effect_of_Day_of_Week_on_Refuse_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Hour_of_Day_on_Refuse_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Week_on_Refuse_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Year_on_Refuse_Counts_aggregated.png
+    │   ├── Effect_of_Day_of_Week_on_Refuse_Counts_all_folds.png
+    │   ├── Effect_of_Hour_of_Day_on_Refuse_Counts_all_folds.png
+    │   ├── Effect_of_Week_on_Refuse_Counts_all_folds.png
+    │   ├── Effect_of_Year_on_Refuse_Counts_all_folds.png
+    │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Refuse.png
+    │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Refuse.png
+    ├── small_vehicles
+    │   ├── Aggregated_Effect_of_Day_of_Week_on_Small_vehicles_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Hour_of_Day_on_Small_vehicles_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Week_on_Small_vehicles_Counts_aggregated.png
+    │   ├── Aggregated_Effect_of_Year_on_Small_vehicles_Counts_aggregated.png
+    │   ├── Effect_of_Day_of_Week_on_Small_vehicles_Counts_all_folds.png
+    │   ├── Effect_of_Hour_of_Day_on_Small_vehicles_Counts_all_folds.png
+    │   ├── Effect_of_Week_on_Small_vehicles_Counts_all_folds.png
+    │   ├── Effect_of_Year_on_Small_vehicles_Counts_all_folds.png
+    │   ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Small_vehicles.png
+    │   └── True_vs_Predicted_(Fixed_Effects_Only)_-_Small_vehicles.png
+    └── two_wheelers
+        ├── Aggregated_Effect_of_Day_of_Week_on_Two_wheelers_Counts_aggregated.png
+        ├── Aggregated_Effect_of_Hour_of_Day_on_Two_wheelers_Counts_aggregated.png
+        ├── Aggregated_Effect_of_Week_on_Two_wheelers_Counts_aggregated.png
+        ├── Aggregated_Effect_of_Year_on_Two_wheelers_Counts_aggregated.png
+        ├── Effect_of_Day_of_Week_on_Two_wheelers_Counts_all_folds.png
+        ├── Effect_of_Hour_of_Day_on_Two_wheelers_Counts_all_folds.png
+        ├── Effect_of_Week_on_Two_wheelers_Counts_all_folds.png
+        ├── Effect_of_Year_on_Two_wheelers_Counts_all_folds.png
+        ├── True_vs_Predicted_(Fixed_and_Random_Effects)_-_Two_wheelers.png
+        └── True_vs_Predicted_(Fixed_Effects_Only)_-_Two_wheelers.png
+
+89 directories, 997 files
