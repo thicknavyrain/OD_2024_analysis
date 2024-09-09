@@ -17,6 +17,7 @@ RUN R -e "install.packages(c('dplyr', 'nloptr', 'lme4', 'lubridate', 'readr', 't
 COPY time_series.R /local/time_series.R
 COPY time_series_predictions.R /local/time_series_predictions.R
 COPY time_series_interactions.R /local/time_series_interactions.R
+COPY time_series_interactions_full_data.R /local/time_series_interactions_full_data.R
 # COPY time_series_AD.R /local/time_series_AD.R
 COPY hourly_averages_v3.csv /local/hourly_averages_v3.csv
 
